@@ -3,6 +3,8 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:lesson8/bounce_animation.dart';
 import 'package:lesson8/flip_animation.dart';
+import 'package:lesson8/insta.dart';
+import 'package:lesson8/navigation_rail.dart';
 import 'package:lesson8/puls_animation.dart';
 import 'package:lesson8/slide_animation.dart';
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: FlipAnimation(),
+      home: NavigationRailPage(),
     );
   }
 }
